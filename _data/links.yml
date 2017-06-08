@@ -1,0 +1,9 @@
+# blog page sections
+- name: A propos
+  href: '/about/'
+
+- name: Musique
+  href: '/music/'
+
+- name: Projets
+  href: '/projects/'
