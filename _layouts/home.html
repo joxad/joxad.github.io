@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- Post -->
-{% for post in site.posts %} 
+{% for post in site.posts %}
   <article class="post">
     <header>
       <div class="title">
@@ -11,13 +11,13 @@ layout: default
       </div>
       <div class="meta">
         <time class="published" datetime="{{ post.date }}">{{ post.date | date: "%d %b %Y %R" }}</time>
-        <a href="{{site.author.cv}}" class="author"><span class="name">V.{{ site.author.last_name }}</span><img src="{{site.author.avatar | prepend: site.baseurl}}" alt="VKapitonenko" /></a>
+        <a href="{{site.author.cv}}" class="author"><span class="name">{{ site.author.github_username }}</span><img src="{{site.author.avatar | prepend: site.baseurl}}" alt="VKapitonenko" /></a>
       </div>
     </header>
     <p>{{ post.content | truncatewords: 35 }}</p>
-    <footer> 
+    <footer>
       <ul class="actions">
-        <li><a href="{{ post.url | relative_url }}" class="button big">Читать Далее</a></li>
+        <li><a href="{{ post.url | relative_url }}" class="button big">Voir +</a></li>
       </ul>
       <ul class="stats">
         <li><a href="{{site.baseurl}}/{{post.link}}">{{post.category}}</a></li>
