@@ -1,12 +1,8 @@
-Based of
+
+Personal website based on
+
 #Future Imperfect Theme on Jekyll
 >by [ViKapitoshka](https://kaptn.ru)
-
-##Demo
-
-[Demo](https://blog.kaptn.ru)
-
-![Future Imperfect Theme preview](https://cdn.rawgit.com/ViKapitoshka/blog/8429b80c/readme_files/screen.png)
 
 ## Installation
 
